@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+    <link rel="stylesheet" href="./style/textareaform.css">
+
+
+    <title> Cadastro</title>
+</head>
+<body>
+
+
+             <section id="primeirafrase"> 
+                <div class="col-xs-1 text-center">
+                <div class="col"></div>
+                <nav class="navleft "> </nav>
+                        <h2> Que os presentes sejam tão incríveis quanto o seu Natal.</h2>   
+                        
+                        <a class="btn btn-primary" href="#produtos">Comprar </a> 
+
+            </article>
+                    <div class="row" > </div>
+                    <article> 
+                    <img src="./Images/Logo.png" alt="imagem " class="img-fluid">
+                  
+            </div>  
+
+                </section>
+                <div class="col-xs-1 text-center">
+            <div class="col">
+                      <ul class=" nav left ">
+                          
+                        <li class="nav-item"><a class="nav-link active" href="./index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./index.html#produtos">Produtos</a></li>
+
+                        <li class="nav-item"><a class="nav-link" href="./index.html#contato">Cadastro</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+   </section> 
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Cadastro</h2>
+                    <p> Faca seu cadastro para receber nossos produtos em sua casa </p>
+
+                     <p> Temos diversos produtos e precos exclusivos ! Aproveite . </p>
+                </div>
+                    <form class="form">
+                        <div  class="col"> </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+                        <div class="col"> </div>
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+<div class="row">
+    <div class="col"></div>
+
+    <input type="test"class="form-control" placeholder="Endereco completo">
+
+<di<div class="row">
+    <div class="col">
+        <label for="cidade" class="col-form-label col-form-label-sm">Cidade</label>
+        <input type="text" name="cidade" id="cidade" class="form-control">
+    </div>
+    <div class="col">
+        <label for="estado" class="col-form-label col-form-label-sm">Estado</label>
+        <select name="estado" id="estado" class="form-control">
+            <option value="">Selecione um estado</option>
+            <option value="sp">SP</option>
+            <option value="al">AL</option>
+            <option value="mg">MG</option>
+        </select>
+    </div>
+    <div class="col">
+        <label for="cep" class="col-form-label col-form-label-sm">CEP</label>
+        <input type="text" name="cep" id="cep" class="form-control">
+    </div>
+</div>
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>  <!-- fim da div com a class container-->
+    </section>
+
+
+
+<div class="row">
+    <div class="col">
+        <div class="form-control">
+         <div class="input-group">
+             
+            <label for="info" class="col-form-label col-form-label-sm">Informações</label>
+            <textarea class="form-control" name="informacoes" id="info" rows="5"></textarea>
+        </div>
+    </div>
+</div>
+<div class="col-xs-1 text-center"></div>
+<div class="row">
+    <div class="col">
+        <div class="form-check">
+            <input type="checkbox" name="promocionais" id="promocionais">
+            <label for="promocionais" class="form-check-label col-form-label-sm">Aceito receber
+                mensagens promocionais</label>
+        </div>
+    </div>
+</div>
+
+<button type="submit" class="btn btn-lg btn-se">Realizar cadastro</button>
+
+</form>
+
+<p> <a href="#cadastro" data-bs-toggle="modal" data-bs-target="#modal-1">Cadastre-se</a> para receber
+novidades.</p>
+
+</div> <!-- end .container -->
+</section>
+
+
+
+
+<div class="modal fade" id="modal-1">
+<div class="modal-dialog">
+<div class="modal-content">
+<div class="modal-header">
+    <h5 class="modal-title">Inscrever-me na lista</h5>
+    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+    <h6>Preencha os campos para receber novidades e promoções</h6>
+
+    <form class="form-inline">
+        <div class="row">
+            <div class="form-group col-4">
+                <input type="text" class="form-control form-control-sm mb-2" name="nome"
+                    placeholder="nome" required>
+            </div>
+            <div class="form-group col-4">
+                <input type="text" class="form-control form-control-sm mb-2" name="e-mail"
+                    placeholder="e-mail" required>
+            </div>
+            <div class="form-group col-4">
+                <button type="submit" class="btn btn-sm btn-success">receber novidades</button>
+            </div>
+        </div>
+    </form>
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-secondary mb-2" data-bs-dismiss="modal">Fechar</button>
+</div>
+</div>
+</div>
+
+</div>
+
+<script src="./libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <footer>
+        <center>
+        <div class="container"  >
+            <p>&copy; Todos os direitos reservados.
+        <small>Desenvolvido por: Filipe Moreira</small></p>
+        </div>
+
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
